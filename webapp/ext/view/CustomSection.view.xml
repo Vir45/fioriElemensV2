@@ -1,0 +1,7 @@
+<core:View
+                xmlns:core="sap.ui.core"
+                xmlns="sap.m">
+        <Text
+                        id="testSrction"
+                        text="I am a custom section)"/>
+</core:View>

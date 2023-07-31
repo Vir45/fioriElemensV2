@@ -1,0 +1,22 @@
+<core:FragmentDefinition
+        xmlns="sap.m"
+        xmlns:smartfilterbar="sap.ui.comp.smartfilterbar"
+        xmlns:core="sap.ui.core">
+    <smartfilterbar:ControlConfiguration
+            groupId="_BASIC"
+            id="customSmartfilterbarID"
+            key="customFilterKey"
+            label="Custom Filter"
+            visibleInAdvancedArea="true">
+        <smartfilterbar:customControl>
+            <ComboBox
+                    id="cutomFilterId"
+                    items="{/SEPMRA_I_DimensionUnit}">
+                <core:Item
+                        id="customSmartComboBoxId0"
+                        key="{UnitOfMeasure}"
+                        text="{UnitOfMeasure_Text}"/>
+            </ComboBox>
+        </smartfilterbar:customControl>
+    </smartfilterbar:ControlConfiguration>
+</core:FragmentDefinition>

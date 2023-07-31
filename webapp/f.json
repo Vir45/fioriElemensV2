@@ -1,0 +1,13 @@
+"quickVariantSelection": {
+    "showCounts": true,
+    "variants": {
+        "0": {
+            "key": "_tab2",
+            "annotationPath": "com.sap.vocabularies.UI.v1.SelectionVariant#SimpleFilter"
+        },
+        "1": {
+            "key": "_tab3",
+            "annotationPath": "com.sap.vocabularies.UI.v1.SelectionVariant#ComplexFilter"
+        }
+    }
+},
